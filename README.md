@@ -10,7 +10,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 结构 vs 架构：
 - 系统一定拥有结构，而只有当一个系统中的元素之间存在物料的输入和输出的时候，才称这个系统拥有架构。
-- 为了描述一个系统的架构，不仅要描述这个系统的结构，还要描述这个系统在每一个运行阶段时的元素的特点和物料的特点。
+- 为了描述一个系统的架构，不仅要描述这个系统的结构，还要描述这个系统在每一个运行阶段的元素的特点和物料的特点。
 
 ### Credits
 - [Architectural Styles and the Design of Network-based Software Architectures](https://ics.uci.edu/~fielding/pubs/dissertation/top.htm)
