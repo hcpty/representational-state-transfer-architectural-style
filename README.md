@@ -1,5 +1,5 @@
 # Readme
-A note about Roy Thomas Fielding's Representational State.
+A note about Roy Thomas Fielding's Representational State Transfer.
 
 ### 表述性状态
 
