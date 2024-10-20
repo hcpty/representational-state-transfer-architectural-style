@@ -20,9 +20,5 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - Layered System
 - Code-On-Demand
 
-表述和状态：
-- 表述
-- 状态
-
 ### Credits
 - [Architectural Styles and the Design of Network-based Software Architectures](https://ics.uci.edu/~fielding/pubs/dissertation/top.htm)
