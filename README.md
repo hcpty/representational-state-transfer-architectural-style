@@ -14,7 +14,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 菲尔丁发明的Representational State Transfer架构的特点是使用以下6种元素和设计模式：
 - Client-Server：Client负责界面交互，Server负责数据存储。
-- Stateless Server：Client应该存储Client与Server会话的上下文，Server不应该存储Client与Server会话的上下文。
+- Stateless (Server)：Client应该存储Client与Server会话的上下文，Server不应该存储Client与Server会话的上下文。
 - Cache：Server应该在每个响应中标记当前响应中的数据是否可以被缓存。
 - Uniform Interface：
 - Layered System：
