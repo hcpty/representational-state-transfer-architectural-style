@@ -49,11 +49,11 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - Client-Server：Client负责界面交互，Server负责数据存储。
 - Stateless (Server)：Server不存储session context，Client存储session context（如果有的话）。
 - Cache：Server在每个响应中标记当前响应中的数据是否可以被缓存，Client根据该标记操作缓存。
-- Uniform Interface：所有REST component都使用统一的接口输入和输出数据，具体表现为以下4个方面：
-  - 所有REST component都使用resource identifier定位resource。
-  - 所有REST component都使用resource representation操作resource。
-  - 所有REST component都使用metadata描述和理解resource和resource representation的属性。
-  - 所有REST component都使用media type描述和理解resource representation的数据格式。
+- Uniform Interface：所有的REST component都使用统一的接口输入和输出数据，具体表现为以下4个方面：
+  - 所有的REST component都使用resource identifier定位resource。
+  - 所有的REST component都使用resource representation操作resource。
+  - 所有的REST component都使用metadata描述和理解resource和resource representation的属性。
+  - 所有的REST component都使用media type描述和理解resource representation的数据格式。
 - Layered System：系统是分层的，而且每一层都只服务其上一层、只调用其下一层，不进行跨层服务、跨层调用。
 - Code-On-Demand (可选)：Client可以从Server下载Java applet、JavaScript script代码并执行以按需拓展Client的功能。
 
