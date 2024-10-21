@@ -3,7 +3,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 ### PhD Dissertation of Roy Thomas Fielding
 
-第一步，解释术语架构风格和架构约束，为描述Representational State Transfer架构风格做准备。
+第一步，解释术语`架构风格`和`架构约束`，为描述Representational State Transfer架构风格做准备。
 
 建筑 vs 软件 (糅合了我的个人观点)：
 - 建筑是由建筑元素组成的，而软件是由软件元素组成的。
@@ -22,7 +22,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - 架构风格是一组相关的架构约束的名字。
 - 如果一个系统遵守了一种架构风格中的所有的架构约束，那么就称这个系统是属于这种架构风格的系统。
 
-第二步，解释术语REST components、resource identifier、resource representation、metadata和media type，为描述Representational State Transfer架构风格做准备。
+第二步，解释术语`REST components`、`resource identifier`、`resource representation`、`metadata`和`media type`，为描述Representational State Transfer架构风格做准备。
 
 菲尔丁对术语REST components的解释 (摘抄自论文原文)：
 - REST components perform actions on a resource by using a representation to capture the current or intended state of that resource and transferring that representation between components.
@@ -43,7 +43,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 菲尔丁对术语media type的解释 (摘抄自论文原文)：
 - The data format of a representation is known as a media type.
 
-第三步，描述Representational State Transfer架构风格。
+第三步，描述`Representational State Transfer架构风格`。
 
 只有当一个系统遵守了以下6个架构约束时，才称这个系统是Representational State Transfer架构风格的系统 (揉合了我的个人观点)：
 - Client-Server：Client负责界面交互，Server负责数据存储。
