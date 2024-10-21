@@ -52,10 +52,10 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - Uniform Interface：所有的REST component都使用统一的接口输入和输出数据，具体表现为以下4个方面：
   - 所有的REST component都使用resource identifier定位resource。
   - 所有的REST component都使用resource representation操作resource。
-  - 所有的REST component都使用metadata表示和理解resource和resource representation的属性。
-  - 所有的REST component都使用media type表示和理解resource representation的数据格式。
+  - 所有的REST component都使用metadata描述和了解resource和resource representation的属性。
+  - 所有的REST component都使用media type描述和了解resource representation的数据格式。
 - Layered System：系统是分层的，而且每一层都只服务其上一层、只调用其下一层，不进行跨层服务、跨层调用。
-- Code-On-Demand (可选)：Client可以从Server下载Java applet、JavaScript script代码并执行以按需拓展Client的功能。
+- Code-On-Demand (可选)：Client可以按需从Server下载Java applet、JavaScript script代码进行执行，从而拓展Client的功能。
 
 ### Credits
 - [Architectural Styles and the Design of Network-based Software Architectures](https://ics.uci.edu/~fielding/pubs/dissertation/top.htm)
