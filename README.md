@@ -15,7 +15,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 架构 vs 架构风格：
 - 架构 vs 架构风格类似于穿搭 vs 穿搭风格。例如，某种穿搭是相对具体的，而某种穿搭风格则是相对抽象的。
 
-菲尔丁对术语resource的定义：
+菲尔丁对术语`resource`的定义：
 - Any information that can be named can be a `resource`: a document or image, a temporal service (e.g. "today's weather in Los Angeles"), a collection of other resources, a non-virtual object (e.g. a person), and so on.
 - A `resource` is a conceptual mapping to a set of entities, not the entity that corresponds to the mapping at any particular point in time.
 - More precisely, a `resource` R is a temporally varying membership function M<sub>R</sub>(t), which for time t maps to a set of entities, or values, which are equivalent. The values in the set may be resource representations and/or resource identifiers.
