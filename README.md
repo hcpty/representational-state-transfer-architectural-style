@@ -13,15 +13,15 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - 为了描述一个系统的架构，不仅需要描述这个系统的结构，还需要描述这个系统在每一个运行阶段时的元素和物料的特点。
 
 架构 vs 架构风格：
-- 架构和架构风格的区别类似于穿搭和穿搭风格的区别，某种穿搭是相对具体的，而某种穿搭风格则是相对抽象的。
-- 架构和架构风格的联系类似于穿搭和穿搭风格的联系，某种穿搭是对某种穿搭风格的一种实现，而某种穿搭风格是对某种穿搭的一种设计。
+- 架构和架构风格的区别类似于穿搭和穿搭风格的区别。
+- 架构和架构风格的联系类似于穿搭和穿搭风格的联系。
 
 菲尔丁对术语`resource`、`resource representation`和`resource identifier`的描述：
 - Any information that can be named can be a `resource`: a document or image, a temporal service (e.g. "today's weather in Los Angeles"), a collection of other resources, a non-virtual object (e.g. a person), and so on.
 - A `resource` is a conceptual mapping to a set of entities, not the entity that corresponds to the mapping at any particular point in time.
 - More precisely, a `resource` R is a temporally varying membership function M<sub>R</sub>(t), which for time t maps to a set of entities, or values, which are equivalent. The values in the set may be `resource representations` and/or `resource identifiers`.
 
-只有当一个系统遵守以下6个约束时，才称这个系统是Representational State Transfer架构风格的系统：
+只有当一个系统遵守了以下6个约束时，才称这个系统是Representational State Transfer架构风格的系统：
 - Client-Server：Client负责界面交互，Server负责数据存储。
 - Stateless (Server)：Server不存储session context，Client存储session context（如果有的话）。该约束的主要目的是简化Server的设计和实现。
 - Cache：Server在每个响应中标记当前响应中的数据是否可以被缓存，Client根据该标记操作缓存。
