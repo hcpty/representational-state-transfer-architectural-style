@@ -19,7 +19,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - 架构和架构风格的联系类似于穿搭和穿搭风格的联系。
 
 架构风格 vs 架构约束 (糅合了我的个人观点)：
-- 架构风格是一组相关的架构约束的名字。
+- 架构风格是对一组相关的架构约束的命名。
 - 如果一个系统遵守了一种架构风格中的所有的架构约束，那么就称这个系统是属于这种架构风格的系统。
 
 :point_right:第二步，解释术语`REST components`、`resource identifier`、`resource representation`、`metadata`和`media type`，为描述Representational State Transfer架构风格做准备。
