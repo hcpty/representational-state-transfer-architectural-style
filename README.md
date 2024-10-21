@@ -10,7 +10,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 结构 vs 架构：
 - 系统一定有结构，而只有当一个系统中的元素之间存在物料的输入和输出的时候，才称这个系统有架构。
-- 为了描述一个系统的架构，不仅需要描述这个系统的结构，还需要描述这个系统在每一个运行阶段的元素和物料的特点。
+- 为了描述一个系统的架构，不仅需要描述这个系统的结构，还需要描述这个系统在每一个运行阶段时的元素和物料的特点。
 
 使用Representational State Transfer架构的系统会使用如下6种元素和设计模式：
 - Client-Server：Client负责界面交互，Server负责数据存储。
