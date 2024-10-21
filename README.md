@@ -14,7 +14,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 使用Representational State Transfer架构的系统会使用如下6种元素和设计模式：
 - Client-Server：Client负责界面交互，Server负责数据存储。
-- Stateless (Server)：Server不存储session state，Client存储session state（如果有的话）。
+- Stateless (Server)：Server不存储session context，Client存储session context（如果有的话）。
 - Cache：Server在每个响应中标记当前响应中的数据是否可以被缓存，Client根据该标记操作缓存。
 - Uniform Interface：
 - Layered System：
