@@ -10,7 +10,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 结构 vs 架构 (糅合了我的个人观点)：
 - 系统一定有结构，而只有当一个系统中的元素之间存在物料的输入和输出的时候，才称这个系统有架构。
-- 为了描述一个系统的架构，不仅需要描述这个系统的结构，还需要描述这个系统在每一个运行阶段时的元素和物料的特点。
+- 结构是架构的一部分，为了描述一个系统的架构，不仅需要描述这个系统的结构，还需要描述这个系统在每一个运行阶段时的元素和物料的特点。
 
 架构 vs 架构风格 (糅合了我的个人观点)：
 - 架构和架构风格的区别类似于穿搭和穿搭风格的区别。
@@ -21,19 +21,10 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - A `resource` is a conceptual mapping to a set of entities, not the entity that corresponds to the mapping at any particular point in time.
 - More precisely, a `resource` R is a temporally varying membership function M<sub>R</sub>(t), which for time t maps to a set of entities, or values, which are equivalent. The values in the set may be `resource representations` and/or `resource identifiers`.
 
-菲尔丁对术语`resource representation`的进一步描述 (摘抄自论文原文)：
-- A `representation` is a sequence of bytes, plus representation metadata to describe those bytes. 
-
-菲尔丁对术语`metadata`的描述 (摘抄自论文原文)：
-- `Metadata` is in the form of name-value pairs, where the name corresponds to a standard that defines the value's structure and semantics.
-
-菲尔丁对术语`media type`的描述 (摘抄自论文原文)：
-- The data format of a representation is known as a `media type`.
-
-Representational State Transfer架构风格得名的原因 (摘抄自论文原文)：
+`Representational State Transfer`架构风格得名的缘由 (摘抄自论文原文)：
 - REST components perform actions on a resource by using a `representation` to capture the current or intended `state` of that resource and `transferring` that representation between components.
 
-只有当一个系统遵守了以下6个约束时，才称这个系统是Representational State Transfer架构风格的系统 (揉合了我的个人观点)：
+只有当一个系统遵守了以下6个约束时，才称这个系统是`Representational State Transfer`架构风格的系统 (揉合了我的个人观点)：
 - Client-Server：Client负责界面交互，Server负责数据存储。
 - Stateless (Server)：Server不存储session context，Client存储session context（如果有的话）。
 - Cache：Server在每个响应中标记当前响应中的数据是否可以被缓存，Client根据该标记操作缓存。
