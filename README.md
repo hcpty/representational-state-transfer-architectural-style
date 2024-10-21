@@ -3,7 +3,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 ### PhD Dissertation of Roy Thomas Fielding
 
-第一步，解释术语`架构风格`和`架构约束`，为描述Representational State Transfer架构风格做准备。
+第一步，解释术语`结构`、`架构`、`架构风格`和`架构约束`，为描述Representational State Transfer (REST) 架构风格做准备。
 
 建筑 vs 软件 (糅合了我的个人观点)：
 - 建筑是由建筑元素组成的，而软件是由软件元素组成的。
@@ -52,8 +52,8 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - Uniform Interface：所有的REST component都使用统一的接口输入和输出数据，具体表现为以下4个方面：
   - 所有的REST component都使用resource identifier定位resource。
   - 所有的REST component都使用resource representation操作resource。
-  - 所有的REST component都使用metadata描述和理解resource和resource representation的属性。
-  - 所有的REST component都使用media type描述和理解resource representation的数据格式。
+  - 所有的REST component都使用metadata表示和理解resource和resource representation的属性。
+  - 所有的REST component都使用media type表示和理解resource representation的数据格式。
 - Layered System：系统是分层的，而且每一层都只服务其上一层、只调用其下一层，不进行跨层服务、跨层调用。
 - Code-On-Demand (可选)：Client可以从Server下载Java applet、JavaScript script代码并执行以按需拓展Client的功能。
 
