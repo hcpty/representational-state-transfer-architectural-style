@@ -24,7 +24,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 
 第二步，解释术语`REST components`、`resource`、`resource representation`、`resource identifier`、`metadata`和`media type`，为描述Representational State Transfer架构风格做准备。
 
-菲尔丁对术语REST components的解释 (摘抄自论文原文)：
+菲尔丁对术语REST component的解释 (摘抄自论文原文)：
 - REST components perform actions on a resource by using a representation to capture the current or intended state of that resource and transferring that representation between components.
 - REST components, summarized in Table 5-3, are typed by their roles in an overall application action.
 - An origin server uses a server connector to govern the namespace for a requested resource. It is the definitive source for representations of its resources and must be the ultimate recipient of any request that intends to modify the value of its resources. Each origin server provides a generic interface to its services as a resource hierarchy. The resource implementation details are hidden behind the interface.
