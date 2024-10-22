@@ -1,7 +1,7 @@
 # Readme
-A note about Roy Thomas Fielding's PhD dissertation.
+A note about Roy Thomas Fielding's Representational State Transfer Architectural Style.
 
-### PhD Dissertation of Roy Thomas Fielding
+### Representational State Transfer Architectural Style
 
 ##### 首先，理解术语*结构*、*架构*、*架构风格*和*架构约束*，为理解Representational State Transfer (REST) 架构风格做准备。
 
