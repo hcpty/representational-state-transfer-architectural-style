@@ -22,7 +22,7 @@ A note about Roy Thomas Fielding's PhD dissertation.
 - 架构风格是对一组相关的架构约束的命名。
 - 如果一个系统遵守了一种架构风格中的所有的架构约束，那么就称这个系统是属于这种架构风格的系统。
 
-##### 然后，理解术语*REST component*、*resource*、*resource representation*、*resource identifier*、*metadata*和*media type*，为理解Representational State Transfer架构风格做准备。
+##### 然后，理解术语*REST component*、*resource*、*resource representation*、*resource identifier*、*metadata*和*media type*，继续为理解Representational State Transfer架构风格做准备。
 
 菲尔丁对术语REST component的解释 (摘抄自论文原文)：
 - REST components perform actions on a resource by using a representation to capture the current or intended state of that resource and transferring that representation between components.
