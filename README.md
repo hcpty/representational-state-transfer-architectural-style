@@ -1,7 +1,7 @@
 # Readme
-A note about Roy Thomas Fielding's Representational State Transfer Architectural Style.
+A note about Roy Thomas Fielding's Representational State Transfer (REST) Architectural Style.
 
-### Representational State Transfer Architectural Style
+### Representational State Transfer (REST) Architectural Style
 
 首先，理解术语*结构*、*架构*、*架构风格*和*架构约束*，为理解Representational State Transfer (REST) 架构风格做准备。
 
@@ -43,9 +43,9 @@ A note about Roy Thomas Fielding's Representational State Transfer Architectural
 菲尔丁对术语media type的解释 (摘抄自论文原文)：
 - The data format of a representation is known as a media type.
 
-最后，理解*Representational State Transfer架构风格*。
+最后，理解*Representational State Transfer (REST) 架构风格*。
 
-只有当一个系统遵守了以下6个架构约束时，才称这个系统是属于Representational State Transfer架构风格的系统 (揉合了我的个人观点)：
+只有当一个系统遵守了以下6个架构约束时，才称这个系统是属于Representational State Transfer (REST) 架构风格的系统 (揉合了我的个人观点)：
 - Client-Server：Client负责界面交互，Server负责数据存储。
 - Stateless (Server)：Server不存储session context，Client存储session context（如果有的话）。
 - Cache：Server在每个响应中标记当前响应中的数据是否可以被缓存，Client根据该标记操作缓存。
